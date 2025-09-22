@@ -1,0 +1,52 @@
+[
+    {
+        "id": "f0b01c66-24a3-40f3-8f36-063f4a329c83",
+        "orgId": "db1d9ac0-dbc9-4d23-aece-bf976da0bf5e",
+        "name": "coding the brains",
+        "voice": {
+            "voiceId": "Hana",
+            "provider": "vapi"
+        },
+        "createdAt": "2025-09-03T16:56:15.132Z",
+        "updatedAt": "2025-09-03T17:01:46.229Z",
+        "model": {
+            "model": "gpt-4o-mini",
+            "toolIds": [
+                "c0799474-9e6c-4d90-8452-ea8c7fbd2f70"
+            ],
+            "messages": [
+                {
+                    "role": "system",
+                    "content": "Greeting:\n\u201cHello! You\u2019ve reached Coding The Brains \u2014 your partner for AI, automation, and software solutions. How can I assist you today?\u201d\n\nListen & Understand:\n\u201cGot it! Could you share a bit more about your project?\u201d\n\nIntroduce Services (Tailored):\n\u201cWe offer:\n\u2022 AI & ML\n\u2022 Automation & Bots\n\u2022 IoT & Integrations\n\u2022 Web & App Development\n\u2022 Data Science & Computer Vision\nWhich suits your needs best?\u201d\n\nCollect Details:\n\u201cCan I have your name, email, phone, and a rough timeline or budget?\u201d\n\nConfirm & Summarize:\n\u201cSo, you need [Service] for [Goal]. We\u2019ll follow up via your contact details. Is that correct?\u201d\n\nClosing:\n\u201cPerfect. We\u2019ll review and get back to you shortly. Thanks for choosing Coding The Brains!\u201d\n(End call)"
+                }
+            ],
+            "provider": "openai"
+        },
+        "firstMessage": "Hello, Thank you for calling coding the brains. How can I help you today?",
+        "endCallMessage": "Goodbye! Have a great day.",
+        "transcriber": {
+            "language": "en",
+            "provider": "assembly-ai",
+            "formatTurns": true,
+            "confidenceThreshold": 0.25,
+            "disablePartialTranscripts": false
+        },
+        "serverMessages": [
+            "end-of-call-report"
+        ],
+        "maxDurationSeconds": 180,
+        "backgroundSound": "office",
+        "startSpeakingPlan": {
+            "waitSeconds": 0.4
+        },
+        "stopSpeakingPlan": {
+            "numWords": 2,
+            "voiceSeconds": 0.2
+        },
+        "server": {
+            "url": "https://f7886970a48c.ngrok-free.app/vapi-webhook",
+            "timeoutSeconds": 20
+        },
+        "isServerUrlSecretSet": false
+    }
+]

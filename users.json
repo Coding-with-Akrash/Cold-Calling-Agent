@@ -1,0 +1,90 @@
+{
+    "e8a01695-a0bc-4a92-9319-54479e4819eb": {
+        "id": "e8a01695-a0bc-4a92-9319-54479e4819eb",
+        "username": "akrash",
+        "email": "akrashnoor2580@gmail.com",
+        "password": "$2b$12$BK3ucRISYlI2mYNon3.yV.26jjC3kf6C7kypuGA1JJLtAJnjPKj.u",
+        "created_at": "2025-09-09T10:19:13.674508",
+        "last_login": "2025-09-09T11:55:26.223276",
+        "verified": true,
+        "premium": false,
+        "voice_profiles": [],
+        "call_history": [],
+        "favorites": [],
+        "assistants": [
+            {
+                "id": "39815d14-995d-4bc9-9fc6-1cdfffaeeeb7",
+                "orgId": "db1d9ac0-dbc9-4d23-aece-bf976da0bf5e",
+                "name": "kashi",
+                "voice": {
+                    "voiceId": "21m00Tcm4TlvDq8ikWAM",
+                    "provider": "11labs"
+                },
+                "createdAt": "2025-09-09T18:39:03.615Z",
+                "updatedAt": "2025-09-09T18:39:03.615Z",
+                "model": {
+                    "model": "gpt-4o",
+                    "messages": [
+                        {
+                            "role": "system",
+                            "content": "You are a helpful, friendly AI assistant. Answer questions clearly and concisely."
+                        }
+                    ],
+                    "provider": "openai"
+                },
+                "firstMessage": "Hello! Thank you for calling. May I know your name, please?",
+                "interruptionsEnabled": true,
+                "transcriber": {
+                    "model": "nova-2",
+                    "language": "en-US",
+                    "provider": "deepgram"
+                },
+                "maxDurationSeconds": 600,
+                "isServerUrlSecretSet": false
+            }
+        ],
+        "settings": {
+            "input_device": "Default",
+            "output_device": "Default",
+            "volume": 80
+        }
+    },
+    "aa60e833-f666-482a-b2ca-8ba487d7af3d": {
+        "id": "aa60e833-f666-482a-b2ca-8ba487d7af3d",
+        "username": "CTB",
+        "email": "akrashr2580@gmail.com",
+        "password": "$2b$12$8Dv02KNQwvzxhSTUUiRaiO8AFLf5w.ce2M4dOf6YGFCBtxaTqvk1q",
+        "created_at": "2025-09-11T10:09:19.097838",
+        "last_login": "2025-09-11T10:09:29.132926",
+        "verified": true,
+        "premium": false,
+        "voice_profiles": [],
+        "call_history": [],
+        "favorites": [],
+        "assistants": [],
+        "settings": {
+            "input_device": "Default",
+            "output_device": "Default",
+            "volume": 80
+        }
+    },
+    "fc3d1909-f7ec-48c8-a6dd-3d499550fd9d": {
+        "id": "fc3d1909-f7ec-48c8-a6dd-3d499550fd9d",
+        "username": "admin",
+        "email": "admin@gmail.com",
+        "password": "$2b$12$Evq8bv2S2DMnHGAwu0IT5ONz039LmKGHQP7hr.sj8it89ONR9u/NC",
+        "created_at": "2025-09-13T01:17:31.598753",
+        "last_login": "2025-09-13T01:17:45.335133",
+        "verified": true,
+        "premium": false,
+        "voice_profiles": [],
+        "call_history": [],
+        "favorites": [],
+        "assistants": [],
+        "settings": {
+            "input_device": "Default",
+            "output_device": "Default",
+            "volume": 80
+        }
+    }
+}
